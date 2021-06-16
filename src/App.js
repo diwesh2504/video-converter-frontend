@@ -10,7 +10,7 @@ function App() {
         <div className="col-3"></div>
         <div className="col">
         <div className="mt-5">
-          <form  method="POST" action="http://localhost:4040/upload" encType="multipart/form-data" name="/file-form">
+          <form  method="POST" action="https://video-conv-backend.herokuapp.com/upload" encType="multipart/form-data" name="/file-form">
           <div>
             <input type="file" id="raw_file" name="myfile"/>
             <label className="form-label" for="raw_file">{name}</label>
