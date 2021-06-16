@@ -21,6 +21,7 @@ function App() {
             <option selected>HLS</option>
           </select>
           <button type="submit" className="mt-5 btn btn-success btn-block">CONVERT</button>
+          <small>Converted files will be in the backend folder (i.e ../backend/uploads)</small>
           </form>
         </div>
         </div>
